@@ -30,6 +30,8 @@
 body {
     background-color: var(--grey-900);
     color: var(--secondary-color);
+    display: flex;
+    justify-content: center;
 }
 
 main {
@@ -38,6 +40,7 @@ main {
     margin: 116.5px 24px 0 24px;
     padding-top: 24px;
     padding-bottom: 24px;
+    width: 327px;
 }
 
 header {
@@ -91,4 +94,24 @@ li {
 li a {
     color: #FFF;
     text-decoration: none;
+}
+
+li:hover {
+    background-color: var(--primary-color);
+    /* color: var(--grey-900); */
+}
+
+li:hover a {
+    color: var(--grey-900);
+  }
+
+@media only screen and (min-width: 600px) {
+    
+    main {
+        width: 384px;
+    }
+
+    li {
+        width: 304px;
+    }
 }
