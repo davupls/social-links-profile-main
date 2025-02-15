@@ -35,14 +35,15 @@ body {
 main {
     background-color: var(--grey-800);
     border-radius: 12px;
-    margin-top: 116.5px;
+    margin: 116.5px 24px 0 24px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 24px;
 }
 
 img {
@@ -50,6 +51,44 @@ img {
     border-radius: 50px;
 }
 
+.headline {
+    margin: 24px 0;
+}
+
+h1 {
+    margin: 0 0 4px 0;
+}
+
 .location {
     color: var(--primary-color);
+    margin: 0 0 24px 0;
+}
+
+.list-con {
+
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 16px;
+    margin-top: 0;
+}
+
+li {
+    background-color: var(--grey-700);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    height: 45px;
+    width: 279px;
+}
+
+li a {
+    color: #FFF;
+    text-decoration: none;
 }
