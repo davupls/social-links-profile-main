@@ -1,0 +1,28 @@
+:root {
+    --grey-900: #141414;
+    --grey-800: #1f1f1f;
+    --grey-700: #333;
+
+    --primary-color: #c4fb2a;
+    --secondary-color: #fff;
+
+    line-height: 150%;
+    letter-spacing: 0px;
+    font-family: "Inter", serif;
+
+}
+
+.text-preset-1 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.text-preset-2 {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.text-preset-3 {
+    font-size: 14px;
+    font-weight: 700;
+}
